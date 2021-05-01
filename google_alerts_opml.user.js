@@ -9,6 +9,9 @@
 // @grant        none
 // @license      BSD-2-Clause
 // @homepage     https://github.com/knu/userjs-google_alerts_opml
+// @homepage     https://greasyfork.org/scripts/425800-download-google-alerts-opml
+// @downloadURL  https://greasyfork.org/scripts/425800-download-google-alerts-opml/code/Download%20Google%20Alerts%20OPML.user.js
+// @updateURL    https://greasyfork.org/scripts/425800-download-google-alerts-opml/code/Download%20Google%20Alerts%20OPML.meta.js
 // ==/UserScript==
 
 (function () {
