@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Download Google Alerts OPML
 // @namespace    https://idaemons.org/
-// @version      0.1
+// @version      0.2
 // @author       Akinori MUSHA
 // @description  adds a "Download OPML" button to your Google Alerts page
 // @match        https://www.google.com/alerts
