@@ -43,11 +43,13 @@
       outline.setAttribute("xmlUrl", url);
       body.appendChild(outline);
     });
+
+    const blob = new Blob([new XMLSerializer(doc).serializeToString(doc)], {
+      type: "text/x-opml",
+    });
     const link = document.createElement("a");
     link.download = "google_alerts.opml";
-    link.href =
-      "data:text/x-opml;base64," +
-      btoa(new XMLSerializer(doc).serializeToString(doc));
+    link.href = URL.createObjectURL(blob);
     link.click();
   });
   div.appendChild(button);
