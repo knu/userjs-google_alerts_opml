@@ -1,6 +1,6 @@
 # Download Google Alerts OPML
 
-This is a user that script for Greasemonkey/Tampermonkey that adds a "Download OPML" button to your Google Alerts page.
+This is a user script for Greasemonkey/Tampermonkey that adds a "Download OPML" button to your Google Alerts page.
 
 ## Author
 
